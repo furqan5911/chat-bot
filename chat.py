@@ -14,9 +14,9 @@ genai.configure(api_key=API_KEY)
 
 
 # Initialize Streamlit app
-st.set_page_config(page_title="📅 Event Chatbot  ")
+st.set_page_config(page_title=" Q&A Demo ")
 
-st.header(" ✨ Event Management Chat BOT")
+st.header(" ✨ Gemini Chat BOT")
 
 # Initialize session state for chat history if it doesn't exist
 if 'messages' not in st.session_state:
